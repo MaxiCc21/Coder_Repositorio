@@ -969,69 +969,30 @@ p{
 
 /* User */
 
-.usr-section1{
-    height: 0px;
-    width: 0px;
-}
-
-.section{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(102, 168, 255, 0.661)
-}
-
 .grid-usr{
-    width: auto;
-    height: auto;
     display: grid;
-    grid-template-columns:repeat(3);
-    grid-template-rows:repeat(3);
+    height: 100vh;
+    grid-auto-columns: 1fr; 
+    grid-template-columns: 100%; 
+    grid-template-rows: 56px 1fr; 
+    gap: 0px 5px; 
     grid-template-areas: 
-    "n1 n1 n1"
-    "n2 n2 n2"
-    "n3 n3 n3";
+    "n1"
+    "n2"; 
 }
-.usr-form-area{
-    padding: 20px;
-    max-width:450px;
-    align-items: center;
-    height:90%;
-    background-color: rgba(43, 251, 11, 0.975);
-    width: 98%;
-    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.612);
-}
+
 
 /* Display: none desaparece un coso */
 @media screen and (min-width:850px){
     .grid-usr{
-        height: 500px;
-        display: grid;
-        gap: 10px;
-        grid-template-columns: repeat(2,1fr);
-        grid-template-rows:repeat(3);
+        display: grid; 
+        height: 100vh;
+        grid-template-columns: 1.5fr 1fr; 
+        grid-template-rows: 56px 1fr; 
+        gap: 0px 5px; 
         grid-template-areas: 
-        "n1 n1 n1"
-        "n2 n2 n2"
-        "n2 n2 n2";
+        "n1 n1"
+        "n3 n2";
     }
 
-    .item3{
-        min-width: 400px;  
-    }
-
-    .usr-form-area{
-        padding: 40px;
-        max-width:450px;
-        align-items: center;
-        height:100%;
-        background-color: rgba(43, 251, 11, 0.975);
-        width: 98%;
-        box-shadow: 0 35px 80px rgba(0, 0, 0, 0.612);
-    }
-
-
-    .usr-section1{
-        width:95%;
-        height: 80vh
-    }
 }
