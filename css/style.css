@@ -1001,6 +1001,7 @@ p{
     box-shadow: 0 35px 80px rgba(0, 0, 0, 0.612);
 }
 
+/* Display: none desaparece un coso */
 @media screen and (min-width:850px){
     .grid-usr{
         height: 500px;
