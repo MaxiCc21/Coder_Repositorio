@@ -1,0 +1,42 @@
+/* Politicas de privacidad */
+
+
+.baner-pp{
+    background-image:url(../img/baner-contacto.jpg);
+}
+.pp-seccion2{
+    margin-bottom:50px;
+    display:flex;
+    justify-content: center;
+}
+.pp-s1-text-area{
+    width:100%;
+    max-width:760px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: var(--pp-font-text);
+}
+
+.pp-s1-text-area *{
+    padding:15px
+}
+
+.pp-s1-text-area h1{
+    text-align: center;
+    font-size:3rem;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.pp-s1-text-area p{
+    font-size:12px;
+}
+
+@media screen and (min-width:540px){
+    .pp-s1-text-area p{
+        font-size:18px;
+    }
+    .pp-s1-text-area h2{
+        font-size:2.2rem;
+    }
+}
