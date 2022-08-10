@@ -1,0 +1,50 @@
+/* Baner */
+.baner-area{
+    height: 15vh;
+    width:100%;
+    background-color:rgb(0, 255, 247);
+    margin-top:10px
+}
+
+.baner{
+    height: 100%;
+    background-size: cover;
+    background-color:darkorange;
+    color:rgb(130, 130, 130);
+    font-size: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+@media screen and (min-width:420px){
+
+    .baner{
+        font-size:65px
+    }
+}
+
+@media screen and (min-width:520px){
+
+
+    .baner-area{
+        height: 25vh;
+        width:100%;
+    }
+
+    .baner{
+        font-size: 90px;
+    }
+}
+
+@media screen and (min-width:1250px){
+
+    .baner-area{
+        height: 35vh;
+    }
+    
+    .baner{
+        font-size: 120px;
+    }
+
+}
