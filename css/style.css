@@ -4,12 +4,10 @@
 .navbar {
   background-color: #fadbd8;
   border-radius: 5px; }
-
-.mx-nav-btn {
-  font-size: 13px !important; }
-
-.nav-icon {
-  padding-right: 10px; }
+  .navbar .mx-nav-btn {
+    font-size: 13px !important; }
+  .navbar .nav-icon {
+    padding-right: 10px; }
 
 @media (min-width: 992px) {
   .mx-nav-btn {
@@ -17,9 +15,9 @@
     background-color: #fdedec;
     border-radius: 50px;
     margin: 0px 10px 0px 10px; }
-  .mx-nav-btn:hover {
-    color: #fadbd8 !important;
-    background-color: #e6b0aa; } }
+    .mx-nav-btn:hover {
+      color: #fadbd8 !important;
+      background-color: #e6b0aa; } }
 
 /* Baner */
 .baner-area {
