@@ -2,25 +2,25 @@
 .baner-area{
     height: 15vh;
     width:100%;
-    background-color:rgb(0, 255, 247);
-    margin-top:10px
+    margin-top:10px;
+
+    
+    .baner{
+        height: 100%;
+        background-size: cover;
+        color:rgb(130, 130, 130);
+        font-size: 50px;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+    }
 }
 
-.baner{
-    height: 100%;
-    background-size: cover;
-    background-color:darkorange;
-    color:rgb(130, 130, 130);
-    font-size: 50px;
-    display: flex;
-    align-items:center;
-    justify-content: center;
-}
 
 @media screen and (min-width:420px){
 
-    .baner{
-        font-size:65px
+    .baner-area .baner{
+        font-size:65px;
     }
 }
 
@@ -32,7 +32,7 @@
         width:100%;
     }
 
-    .baner{
+    .baner-area .baner{
         font-size: 90px;
     }
 }
@@ -43,7 +43,7 @@
         height: 35vh;
     }
     
-    .baner{
+    .baner-area .baner{
         font-size: 120px;
     }
 
