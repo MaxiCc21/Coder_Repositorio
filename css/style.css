@@ -422,66 +422,57 @@ p {
   border-radius: 10px;
   display: flex;
   justify-content: center; }
-
-.cn-s2-form-area form {
-  height: 100%;
-  width: 90%;
-  max-width: 560px;
-  font-family: 'Neutral Std', 'Source Sans Pro', sans-serif;
-  display: flex;
-  flex-wrap: wrap; }
-
-.cn-s2-form-area h1 {
-  border-bottom: 1px solid black;
-  width: 100%;
-  margin-top: 5%;
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 15px; }
-
-.cn-s2-form-area label {
-  color: #808b96;
-  font-size: 15px; }
-
-.cn-s2-form-area input {
-  margin-top: 5px;
-  padding-left: 10px;
-  font-size: 16px;
-  height: 40px;
-  width: 99%;
-  margin-bottom: 5%;
-  border-radius: 5px;
-  border: 1px solid #bebebe; }
-
-.cn-s2-form-area input:focus-visible {
-  outline: 0px; }
-
-.cn-s2-form-area textarea {
-  margin-top: 5px;
-  font-size: 16px;
-  height: 20%;
-  width: 99%;
-  border-radius: 5px;
-  padding-left: 10px;
-  line-height: 35px;
-  border: 1px solid #bebebe; }
-
-.cn-s2-form-area textarea:focus-visible {
-  outline: 0px; }
-
-.cn-s2-form-area button {
-  border-color: rgba(4, 0, 251, 0);
-  background-color: #d1f2eb;
-  width: 40%;
-  height: 5%;
-  max-width: 260px;
-  margin-top: 30px;
-  margin-bottom: 55px;
-  border-radius: 20px; }
-
-.cn-s2-form-area button:hover {
-  background-color: #a1bdb7;
-  color: #d1f2eb; }
+  .cn-s2-form-area form {
+    height: 100%;
+    width: 90%;
+    max-width: 560px;
+    font-family: 'Neutral Std', 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-wrap: wrap; }
+    .cn-s2-form-area form h1 {
+      border-bottom: 1px solid black;
+      width: 100%;
+      margin-top: 5%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 15px; }
+    .cn-s2-form-area form label {
+      color: #808b96;
+      font-size: 15px; }
+    .cn-s2-form-area form input {
+      margin-top: 5px;
+      padding-left: 10px;
+      font-size: 16px;
+      height: 40px;
+      width: 99%;
+      margin-bottom: 5%;
+      border-radius: 5px;
+      border: 1px solid #bebebe; }
+      .cn-s2-form-area form input:focus-visible {
+        outline: 0px; }
+    .cn-s2-form-area form textarea {
+      margin-top: 5px;
+      font-size: 16px;
+      height: 20%;
+      width: 99%;
+      border-radius: 5px;
+      padding-left: 10px;
+      line-height: 35px;
+      border: 1px solid #bebebe; }
+      .cn-s2-form-area form textarea:focus-visible {
+        outline: 0px; }
+    .cn-s2-form-area form button {
+      border-color: rgba(4, 0, 251, 0);
+      background-color: #d1f2eb;
+      width: 40%;
+      height: 5%;
+      max-width: 260px;
+      margin-top: 30px;
+      margin-bottom: 55px;
+      border-radius: 20px; }
+      .cn-s2-form-area form button:hover {
+        background-color: #a1bdb7;
+        color: #d1f2eb; }
 
 @media screen and (min-width: 950px) {
   .cn-s2-form-area {
