@@ -1,0 +1,230 @@
+/* Menu */
+.baner-mnu{
+    background-image:url(../img/baner-quienes-somos.jpg)
+}
+
+.menu-seccion2{
+    margin-bottom:40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.menu-s2-cards-area{
+    padding: 20px;
+    width: 90%;
+    border-radius: 50px;
+    display: flex;
+}
+
+
+.first-container{
+    background-color:rgba(238, 13, 13, 0.54);
+}
+.second-container{
+    background-color: rgba(198, 255, 12,0.54);
+}
+
+.menu-card{
+    background-size: cover;
+    height:auto;
+    border-radius: 5%;
+    width:100%;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-card-img{
+    height:70%;
+    width:100%;
+    border-radius: 5% 5% 0% 0% ;
+    background-image: url('../img/mermeladas.jpg');
+    margin-bottom: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-card-text{
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    font-family: var(--pp-font-text);
+    height:20%;
+}
+
+.mnu-box{
+    height: 400px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.mx-mnu-card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.401);
+    transition: 0.4s;
+}
+
+
+
+.imgBx{
+    position:absolute;
+    left:50%;
+    top:-50px;
+    transform:translate(-50%);
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow:0 15px 50px rgba(0, 0, 0, 0.35);
+    overflow: hidden;
+    transition:0.4s
+}
+
+
+
+.imgBx img{
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mx-mnu-card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.mx-mnu-card .content .details{
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: 0.4s;
+
+}
+
+
+
+
+.mx-mnu-card .content .details h2{
+    font-size: 1.25rem;
+    font-weight:600;
+    color: #555;
+    line-height: 1.2em;
+}
+
+.mx-mnu-card .content .details h2 span{
+    font-size: 0.75em;
+    font-weight: 500;
+    opacity: 0.5;
+}
+
+.mx-mnu-card .content .details .data{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+
+.mx-mnu-card .content .details .data h3{
+    font-size:1em;
+    color: #555;
+    line-height:1.2em;
+    font-weight: 600;
+}
+
+.mx-mnu-card .content .details .data h3 span{
+    font-size: 0.85em;
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+.mx-mnu-card .content .details .actionBtn{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.mx-mnu-card .content .details .actionBtn a{
+    padding: 10px 30px;
+    border-radius:5px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #ff5f95;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mx-mnu-card .content .details .actionBtn a:nth-child(2){
+    border: 1px solid #999;
+    color:#999;
+    background: #fff;
+}
+
+
+
+
+.container { 
+    display: grid;
+    gap: 20px;
+    padding: 30px;
+    width: 90%;
+    border-radius: 50px;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: center;
+    justify-items: center;
+}
+
+@media screen and (min-width:800px){
+    .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media screen and (min-width:1100px){
+    .mx-mnu-card .content .details{
+        transform: translateY(150px);
+    }
+    .mx-mnu-card:hover .content .details{
+        transform: translateY(10px);
+    }
+
+    .mx-mnu-card:hover{
+        height: 400px;
+        z-index: 1
+    }
+    .mx-mnu-card{
+        height: 200px;
+    }
+    .mx-mnu-card:hover .imgBx{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (min-width:1200px){
+    .container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+

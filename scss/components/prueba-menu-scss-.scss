@@ -168,7 +168,7 @@
 
 
 @media screen and (min-width:800px){
-    .menu-seccion2 .container{
+    .container{
         grid-template-columns: repeat(2,1fr);
     }
 
@@ -182,14 +182,14 @@
         transform: translateY(10px);
     }
 
-    .menu-seccion2 .container .mnu-box .menu-card .mx-mnu-card:hover{
+    .mx-mnu-card:hover{
         height: 400px;
         z-index: 1
     }
-    .menu-seccion2 .container .mnu-box .menu-card .mx-mnu-card{
+    .mx-mnu-card{
         height: 200px;
     }
-    .menu-seccion2 .container .mnu-box .menu-card .mx-mnu-card:hover .imgBx{
+    .mx-mnu-card:hover .imgBx{
         width: 200px;
         height: 200px;
     }
@@ -197,9 +197,8 @@
 
 
 @media screen and (min-width:1200px){
-    .menu-seccion2 .container{
+    .container{
         grid-template-columns: repeat(3,1fr);
     }
-
-
 }
+
