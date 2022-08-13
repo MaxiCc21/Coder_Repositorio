@@ -1,6 +1,82 @@
-/* NavBar */
+/*/Ctrl+Shifth+p comment label ===================================================================================================================================================================================================================================================================================================================================================================================================
+//                                                                                                                                                                                                                                                                                                                                                                                                   
+//  ###    ###    ###    ##    ##  ##                                                                                                                                                                                                                                                                                                                                                              
+//  ## #  # ##   ## ##    ##  ##   ##                                                                                                                                                                                                                                                                                                                                                              
+//  ##  ##  ##  ##   ##    ####    ##                                                                                                                                                                                                                                                                                                                                                              
+//  ##      ##  #######   ##  ##   ##                                                                                                                                                                                                                                                                                                                                                              
+//  ##      ##  ##   ##  ##    ##  ##                                                                                                                                                                                                                                                                                                                                                              
+//                                                                                                                                                                                                                                                                                                                                                                                                   
+//===================================================================================================================================================================================================================================================================================================================================================================================================
+*/
 @import url("https://fonts.googleapis.com/css2?family=Square+Peg&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap");
+:root {
+  --pp-font-text:Arial,sans-serif;
+  --box-width:98%;
+  --box-border-radius:50px; }
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  width: 100%;
+  height: 100%; }
+
+a, button {
+  cursor: pointer; }
+
+.grid {
+  width: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3);
+  grid-template-rows: repeat(4);
+  grid-template-areas: "n1 n1 n1" "n2 n2 n2" "n3 n3 n3" "n4 n4 n4 "; }
+
+.item1 {
+  grid-area: n1;
+  position: sticky;
+  z-index: 2;
+  top: 0; }
+
+.item2 {
+  grid-area: n2; }
+
+.item3 {
+  grid-area: n3; }
+
+.item4 {
+  grid-area: n4; }
+
+h1, h2, h3 {
+  margin: 0px;
+  padding: 0px; }
+
+a {
+  color: black;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px; }
+
+p {
+  margin: 0%; }
+
+#section {
+  margin-bottom: 25px;
+  padding: 0px; }
+
+.section-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%; }
+
+.box {
+  width: var(--box-width);
+  border-radius: var(--box-border-radius);
+  margin-bottom: 25px; }
+
+/* NavBar */
 .navbar {
   background-color: #fadbd8;
   border-radius: 5px; }
@@ -95,82 +171,6 @@
   background-color: #91ff7e;
   border: 2px solid #adff32; }
 
-/*/Ctrl+Shifth+p comment label ===================================================================================================================================================================================================================================================================================================================================================================================================
-//                                                                                                                                                                                                                                                                                                                                                                                                   
-//  ###    ###    ###    ##    ##  ##                                                                                                                                                                                                                                                                                                                                                              
-//  ## #  # ##   ## ##    ##  ##   ##                                                                                                                                                                                                                                                                                                                                                              
-//  ##  ##  ##  ##   ##    ####    ##                                                                                                                                                                                                                                                                                                                                                              
-//  ##      ##  #######   ##  ##   ##                                                                                                                                                                                                                                                                                                                                                              
-//  ##      ##  ##   ##  ##    ##  ##                                                                                                                                                                                                                                                                                                                                                              
-//                                                                                                                                                                                                                                                                                                                                                                                                   
-//===================================================================================================================================================================================================================================================================================================================================================================================================
-*/
-:root {
-  --pp-font-text:Arial,sans-serif;
-  --box-width:98%;
-  --box-border-radius:50px; }
-
-body {
-  margin: 0px;
-  padding: 0px;
-  background-color: white;
-  width: 100%;
-  height: 100%; }
-
-a, button {
-  cursor: pointer; }
-
-.grid {
-  width: auto;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3);
-  grid-template-rows: repeat(4);
-  grid-template-areas: "n1 n1 n1" "n2 n2 n2" "n3 n3 n3" "n4 n4 n4 "; }
-
-.item1 {
-  grid-area: n1;
-  position: sticky;
-  z-index: 2;
-  top: 0; }
-
-.item2 {
-  grid-area: n2; }
-
-.item3 {
-  grid-area: n3; }
-
-.item4 {
-  grid-area: n4; }
-
-h1, h2, h3 {
-  margin: 0px;
-  padding: 0px; }
-
-a {
-  color: black;
-  text-decoration: none;
-  padding: 0px;
-  margin: 0px; }
-
-p {
-  margin: 0%; }
-
-#section {
-  margin-bottom: 25px;
-  padding: 0px; }
-
-.section-wrap {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%; }
-
-.box {
-  width: var(--box-width);
-  border-radius: var(--box-border-radius);
-  margin-bottom: 25px; }
-
 /* index */
 /* seccion1 */
 .hm-s1-box {
@@ -184,76 +184,68 @@ p {
   display: flex;
   align-items: center;
   justify-content: center; }
-
-.hm-s1-box h1 {
-  color: #fff;
-  font-size: 50px; }
+  .hm-s1-box h1 {
+    color: #fff;
+    font-size: 50px; }
 
 /* seccion 2 */
 .hm-s2-box {
   height: auto;
   display: flex;
   flex-wrap: wrap; }
-
-.hm-s2-box figcaption {
-  width: 100%;
-  max-height: 500px; }
-
-.hm-s2-box img {
-  border-radius: 50px 50px 0px 0px;
-  margin: 0%;
-  width: 100%;
-  height: 100%; }
-
-.hm-s2-box-text-area {
-  height: auto;
-  width: 100%;
-  padding-top: 20px;
-  text-align: center;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  align-content: center; }
+  .hm-s2-box figcaption {
+    width: 100%;
+    max-height: 500px; }
+    .hm-s2-box figcaption img {
+      border-radius: 50px 50px 0px 0px;
+      margin: 0%;
+      width: 100%;
+      height: 100%; }
+  .hm-s2-box .hm-s2-box-text-area {
+    height: auto;
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center; }
+    .hm-s2-box .hm-s2-box-text-area a {
+      width: auto;
+      max-width: 400px;
+      color: #000000;
+      /* color de fuente */
+      padding: 16px 20px;
+      border-radius: 50px;
+      /* redondear bordes */
+      position: relative;
+      z-index: 1;
+      overflow: hidden;
+      display: inline-block; }
+      .hm-s2-box .hm-s2-box-text-area a:hover {
+        color: #fff; }
+      .hm-s2-box .hm-s2-box-text-area a::after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        padding: 16px 20px;
+        display: block;
+        top: 0;
+        bottom: 0;
+        left: -100%;
+        right: 100%;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s; }
+      .hm-s2-box .hm-s2-box-text-area a:hover::after {
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        -webkit-transition: all 0.35s;
+        transition: all 0.35s; }
 
 .hm-s2-box-text-area * {
   margin: 20px; }
-
-.hm-s2-box-text-area a {
-  width: auto;
-  max-width: 400px;
-  color: #000000;
-  /* color de fuente */
-  padding: 16px 20px;
-  border-radius: 50px;
-  /* redondear bordes */
-  position: relative;
-  z-index: 1;
-  overflow: hidden;
-  display: inline-block; }
-
-.hm-s2-box-text-area a:hover {
-  color: #fff; }
-
-.hm-s2-box-text-area a::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  padding: 16px 20px;
-  display: block;
-  top: 0;
-  bottom: 0;
-  left: -100%;
-  right: 100%;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s; }
-
-.hm-s2-box-text-area a:hover::after {
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  -webkit-transition: all 0.35s;
-  transition: all 0.35s; }
 
 /* Box 1 */
 .hm-s2-first-box {
@@ -320,9 +312,9 @@ p {
   .hm-s2-second-box {
     flex-wrap: nowrap;
     flex-direction: row-reverse; }
-  .hm-s2-first-box-image-area img {
+  .hm-s2-box .hm-s2-first-box-image-area img {
     border-radius: 2% 50% 2% 50%; }
-  .hm-s2-second-box-image-area img {
+  .hm-s2-box .hm-s2-second-box-image-area img {
     border-radius: 50% 2% 50% 2%; } }
 
 .baner-qs {
