@@ -3,15 +3,18 @@
 .navbar{
     background-color:rgb(250, 219, 216);
     border-radius: 5px;
+
+    .mx-nav-btn{
+        font-size:13px!important;
+    }
+    .nav-icon{
+        padding-right: 10px;
+    }
 }
 
-.mx-nav-btn{
-    font-size:13px!important
-}
 
-.nav-icon{
-    padding-right: 10px;
-}
+
+
 
 @media (min-width: 992px){
     .mx-nav-btn{
@@ -19,10 +22,12 @@
         background-color:rgb(253, 237, 236);
         border-radius: 50px;
         margin: 0px 10px 0px 10px;
+
+        &:hover {
+            color:rgb(250, 219, 216)!important;
+            background-color: rgb(230, 176, 170);
+        }
     }
     
-    .mx-nav-btn:hover {
-        color:rgb(250, 219, 216)!important;
-        background-color: rgb(230, 176, 170);
-    }
+
 }
