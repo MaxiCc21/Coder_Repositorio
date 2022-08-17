@@ -104,7 +104,7 @@ p{
 
 /* NavBar */
 
-/* .navbar{
+.navbar{
     background-color:rgb(250, 219, 216);
     border-radius: 5px;
 }
@@ -129,7 +129,7 @@ p{
         color:rgb(250, 219, 216)!important;
         background-color: rgb(230, 176, 170);
     }
-} */
+}
 
 /* index */
 
@@ -341,7 +341,7 @@ p{
 
 /* Footer */
 
-/* .footer{
+.footer{
     margin-top:10px;
     height: 20vh;
     display: flex;
@@ -394,11 +394,11 @@ p{
     display:flex;
     justify-content: space-around;
 }
- */
+
 
 
 /* Baner */
-/* .baner-area{
+.baner-area{
     height: 15vh;
     width:100%;
     background-color:rgb(0, 255, 247);
@@ -446,10 +446,10 @@ p{
         font-size: 120px;
     }
 
-} */
+}
 
 /* Contacto */
-/* 
+
     .baner-cn{
         background-image:url(../img/baner-contacto.jpg);
     }
@@ -542,14 +542,14 @@ p{
         transform: translate(0px, -4%);
     }
 
-} */
+}
 
 
 
 
 /* Politicas de privacidad */
 
-/* 
+
 .baner-pp{
     background-image:url(../img/baner-contacto.jpg);
 }
@@ -588,12 +588,12 @@ p{
     .pp-s1-text-area h2{
         font-size:2.2rem;
     }
-} */
+}
 
 
 
 /* Menu */
-/* .baner-mnu{
+.baner-mnu{
     background-image:url(../img/baner-quienes-somos.jpg)
 }
 
@@ -830,12 +830,12 @@ p{
 }
 
 
- */
+
 
 
 /* Quienes somos */
 
-/* .baner-qs{
+.baner-qs{
     background-image: url(../img/baner-quienes-somos.jpg);
 }
 
@@ -940,7 +940,7 @@ p{
         margin-top: 20px;
         font-size:70px;
     }
-} */
+}
 
 
 /* Users */
