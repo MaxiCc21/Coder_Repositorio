@@ -49,9 +49,9 @@
             padding-top:20px;
             text-align: center;
             display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            align-content: center;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             
             a{
                 width:auto;
@@ -186,6 +186,7 @@
         .hm-s1-box h1{
             font-size:200px;
         }
+
     
     }
     
