@@ -209,8 +209,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-color: red; }
+    justify-content: center; }
     .hm-s2-box .hm-s2-box-text-area a {
       width: auto;
       max-width: 400px;
